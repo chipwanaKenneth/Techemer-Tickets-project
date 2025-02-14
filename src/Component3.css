@@ -54,7 +54,7 @@
   }
 
   .ticket-background{
-    background-image: url("/home/kennethchipwana/vite-project/vite2-project/src/assets/Screenshot from 2025-02-13 22-21-30.png");
+    background-image: url("/src/assets/Screenshot from 2025-02-13 22-21-30.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 352px;
@@ -196,7 +196,7 @@
     }
   
     .ticket-background{
-      background-image: url("/home/kennethchipwana/vite-project/vite2-project/src/assets/Screenshot from 2025-02-13 22-21-30.png");
+      background-image: url("/src/assets/Screenshot from 2025-02-13 22-21-30.png");
       background-size: contain;
       background-repeat: no-repeat;
       width: 352px;
