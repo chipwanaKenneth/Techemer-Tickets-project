@@ -29,7 +29,6 @@ function Stage2({
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(details);
     // Convert Image to base64
     toDataURL(uploadedFile, function (dataUrl: string) {
       setDetails({
@@ -57,7 +56,6 @@ function Stage2({
       }
     ).then((r) => r.json());
 
-    console.log("imageSRC", res.url);
     setUploadedFile(res.url);
 
     setLoading(false);
