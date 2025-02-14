@@ -8,15 +8,15 @@ function Stage2({
   setDetails,
   proceed,
   back,
-  uploadedFile,
-  setUploadedFile,
+  uploadedFileUrl,
+  setUploadedFileUrl,
 }: {
   details: Details;
   setDetails: Function;
   proceed: Function;
   back: Function;
-  uploadedFile: string | null;
-  setUploadedFile: Function;
+  uploadedFileUrl: string | null;
+  setUploadedFileUrl: Function;
 }) {
   const [loading, setLoading] = useState(false);
 
@@ -30,7 +30,7 @@ function Stage2({
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Convert Image to base64
-    toDataURL(uploadedFile, function (dataUrl: string) {
+    toDataURL(uploadedFileUrl?.replace('http://','https://')??"", function (dataUrl: string) {
       setDetails({
         ...details,
         dataUrl,
@@ -56,7 +56,7 @@ function Stage2({
       }
     ).then((r) => r.json());
 
-    setUploadedFile(res.url);
+    setUploadedFileUrl(res.url);
 
     setLoading(false);
   }, []);
@@ -96,9 +96,9 @@ function Stage2({
                         <>
                           <span>Please Wait while Loading</span>
                         </>
-                      ) : uploadedFile ? (
+                      ) : uploadedFileUrl ? (
                         <img
-                          src={uploadedFile}
+                          src={uploadedFileUrl}
                           className="pfp"
                           alt="Drag & drop or click to upload"
                         />

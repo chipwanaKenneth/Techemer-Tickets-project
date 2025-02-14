@@ -7,7 +7,7 @@ import { Details } from "./types";
 export default function Content() {
   const [details, setDetails] = useState<Details>({} as Details);
   const [stage, setStage] = useState<number>(1);
-  const [uploadedFile, setUploadedFile] = useState<string | null>(null);
+  const [uploadedFileUrl, setUploadedFileUrl] = useState<string | null>(null);
 
   const proceed = () => {
     if (stage < 3) {
@@ -41,8 +41,8 @@ export default function Content() {
         <StageII
           details={details}
           setDetails={setDetails}
-          uploadedFile={uploadedFile}
-          setUploadedFile={setUploadedFile}
+          uploadedFileUrl={uploadedFileUrl}
+          setUploadedFileUrl={setUploadedFileUrl}
           proceed={proceed}
           back={back}
         />
@@ -51,8 +51,8 @@ export default function Content() {
         <ContentIII
           details={details}
           setDetails={setDetails}
-          uploadedFile={uploadedFile}
-          setUploadedFile={setUploadedFile}
+          uploadedFileUrl={uploadedFileUrl}
+          setUploadedFileUrl={setUploadedFileUrl}
           back={back}
         />
       )}

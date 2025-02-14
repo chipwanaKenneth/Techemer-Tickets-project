@@ -7,14 +7,14 @@ function ContentIII({
   details,
   setDetails,
   back,
-  uploadedFile,
-  setUploadedFile,
+  uploadedFileUrl,
+  setUploadedFileUrl,
 }: {
   details: Details;
   setDetails: Function;
   back: Function;
-  uploadedFile: string | null;
-  setUploadedFile: Function;
+  uploadedFileUrl: string | null;
+  setUploadedFileUrl: Function;
 }) {
   const downloadTicket = () => {
     const ticket = document.getElementById("ticket");
