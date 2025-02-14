@@ -1,0 +1,350 @@
+.body2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Component2 {
+  background-color: #041e23;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 18px;
+  border: solid 1px #0e4a54;
+  width: 400px;
+  margin-bottom: 100px;
+}
+.C2-header {
+  border-bottom: solid 3px #0e4a54;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+h1 {
+  font-weight: 100;
+  margin: 0px;
+}
+
+.C2-Body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #08252b;
+  border-radius: 18px;
+  border: solid 1px #0e4a54;
+  padding: 20px;
+}
+
+.event-info {
+  background-color: #061c20;
+  min-height: 200px;
+  border: solid 1px #0e4a54;
+  border-radius: 18px;
+}
+
+.event-info input {
+  width: 202px;
+  background-color: #1d373c;
+  height: 210px;
+  border: solid 1px #27bfdc;
+  border-radius: 24px;
+  padding: p10px;
+}
+.uploaH {
+  width: 330px;
+  padding: 12px;
+  font-size: 1.3em;
+}
+
+input #file-upload-button {
+  display: none;
+}
+
+/* Upload box styles */
+.upload-box {
+  border: 2px solid #17639a;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pfp {
+  overflow: hidden;
+  vertical-align: middle;
+  width: 190px;
+  border-radius: 12px;
+}
+.upload-text {
+  color: #a9bfcf;
+  font-size: 14px;
+}
+
+.upload-box:hover {
+  border-color: #1a4d6f;
+}
+
+.file-input {
+  display: none;
+}
+
+hr {
+  margin: 20px auto;
+  height: 2px;
+  border: none;
+  background-color: #0e4a54;
+}
+/* Form style */
+.aName {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aName input {
+  margin-top: 5px;
+  border: solid 2px #0e4a54;
+  border-radius: 8px;
+  background-color: #08252b;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.aEmail {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aEmail input {
+  margin-top: 5px;
+  border: solid 2px #0e4a54;
+  border-radius: 8px;
+  background-color: #08252b;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.sRequests {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sRequests textarea {
+  margin-top: 5px;
+  border: solid 2px #0e4a54;
+  border-radius: 8px;
+  background-color: #08252b;
+  columns: 5;
+  padding: 5px;
+}
+/* buttons style */
+.backSubmit {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.submitBtn {
+  border-radius: 8px;
+  width: 260px;
+  padding: 1px 0px;
+  font-size: 1em;
+  background-color: #24a0b5;
+  color: white;
+  border: #24a0b5;
+}
+.backBtn {
+  border: solid 2px #0e4a54;
+  color: #0e4a54;
+  border-radius: 8px;
+  background-color: #08252b;
+  height: 50px;
+  width: 260px;
+  padding: 1px 0px;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Component2 {
+    background-color: #041e23;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 18px;
+    border: solid 1px #0e4a54;
+    width: 600px;
+    margin-bottom: 100px;
+  }
+  .C2-header {
+    border-bottom: solid 3px #0e4a54;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-weight: 100;
+    margin: 0px;
+  }
+
+  .C2-Body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: #08252b;
+    border-radius: 18px;
+    border: solid 1px #0e4a54;
+    padding: 20px;
+  }
+
+  .event-info {
+    background-color: #061c20;
+    min-height: 200px;
+    border: solid 1px #0e4a54;
+    border-radius: 18px;
+  }
+  .uploaH {
+    width: 530px;
+    padding: 12px;
+    font-size: 1.3em;
+  }
+
+  .event-info input {
+    width: 202px;
+    background-color: #1d373c;
+    height: 210px;
+    border: solid 1px #27bfdc;
+    border-radius: 24px;
+    padding: p10px;
+  }
+
+  input #file-upload-button {
+    display: none;
+  }
+
+  /* Upload box styles */
+  .upload-box {
+    border: 2px solid #17639a;
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pfp {
+    overflow: hidden;
+    vertical-align: middle;
+    width: 190px;
+    height: 190px;
+    border-radius: 12px;
+  }
+  .upload-text {
+    color: #a9bfcf;
+    font-size: 14px;
+  }
+
+  .upload-box:hover {
+    border-color: #1a4d6f;
+  }
+
+  .file-input {
+    display: none;
+  }
+
+  hr {
+    margin: 20px auto;
+    height: 2px;
+    border: none;
+    background-color: #0e4a54;
+  }
+
+  .aName {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aName input {
+    margin-top: 5px;
+    border: solid 2px #0e4a54;
+    border-radius: 8px;
+    background-color: #08252b;
+    padding: 10px;
+    font-size: 1.1em;
+  }
+
+  .aEmail {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aEmail input {
+    margin-top: 5px;
+    border: solid 2px #0e4a54;
+    border-radius: 8px;
+    background-color: #08252b;
+    padding: 10px;
+    font-size: 1.1em;
+  }
+
+  .sRequests {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sRequests textarea {
+    margin-top: 5px;
+    border: solid 2px #0e4a54;
+    border-radius: 8px;
+    background-color: #08252b;
+    columns: 5;
+    padding: 5px;
+  }
+
+  .backSubmit {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .submitBtn {
+    border-radius: 8px;
+    width: 260px;
+    padding: 1px 0px;
+    font-size: 1em;
+    background-color: #24a0b5;
+    color: white;
+    border: #24a0b5;
+  }
+  .backBtn {
+    border: solid 2px #0e4a54;
+    color: #0e4a54;
+    border-radius: 8px;
+    background-color: #08252b;
+    height: 50px;
+    width: 260px;
+    padding: 1px 0px;
+    font-size: 1em;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}

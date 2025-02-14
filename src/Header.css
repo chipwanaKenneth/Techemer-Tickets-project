@@ -1,0 +1,78 @@
+.header{
+  border: solid 1px #0e4a54 ;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  min-width: 350px;
+  margin: auto 15px auto 15px;
+}
+
+.header-tags{
+  display: flex;
+}
+
+.header-tags p{
+  padding-right: 25px;
+  display: none;
+}
+
+.myTickets{
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.myTickets:hover{
+  cursor: pointer;
+}
+
+p:hover{
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+
+.header{
+  border: solid 1px #0e4a54 ;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  min-width: 600px;
+  margin: auto 50px auto 50px;
+}
+
+.header-tags{
+  display: flex;
+}
+
+.header-tags p{
+  padding-right: 25px;
+  display: flex;
+}
+
+.myTickets{
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.myTickets:hover{
+  cursor: pointer;
+}
+
+p:hover{
+  cursor: pointer;
+}
+}

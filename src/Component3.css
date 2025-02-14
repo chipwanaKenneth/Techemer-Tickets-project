@@ -1,0 +1,280 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Component3{
+    background-color: #041e23;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 18px;
+    border: solid 1px #0e4a54 ;
+    width: 400px;
+    margin-bottom: 100px;
+  }
+  .C3-header{
+    border-bottom: solid 3px #0e4a54;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  h1{
+    font-weight: 100;
+    margin: 0px;
+  }
+  
+  .C3-Body{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: #041e23;
+    border-radius: 18px;
+    border: solid 1px #0e4a54 ;
+    padding: 20px;
+  }
+
+  .bheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h2{
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .rTicket{
+    background-color: #041e23;
+    min-height: 450px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ticket-background{
+    background-image: url("/home/kennethchipwana/vite-project/vite2-project/src/assets/Screenshot from 2025-02-13 22-21-30.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 352px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ticket-background .time{
+    padding-top: 80px;
+  }
+  .ticket-background img{
+    margin-top: 20px;
+    width: 110px;
+    height: 110px;
+    border: 3px solid #5affff;
+    border-radius: 12px;
+  }
+
+  .AttendeeInfo{
+    display: flex;
+    border: solid 2px #0b444d;
+    width: 270px;
+    border-radius: 12px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    font-size: .9em;
+  }
+  .container div{
+    border-bottom: solid 1px #0b444d;
+    width: 125px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    
+  }
+  .specialRequest{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .backSubmit{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .submitBtn {
+    border-radius: 8px;
+    width: 200px;
+    padding: 1px 0px;
+    font-size: 1em;
+    background-color: #24a0b5;
+    color: white;
+    border: #24a0b5;
+    margin-left: 5px;
+  }
+  .backBtn{
+    margin-right: 5px;
+    border: solid 2px #0e4a54 ;
+    color: #0e4a54;
+    border-radius: 8px;
+    background-color: #08252b;
+    height: 50px;
+    width: 200px;
+    padding: 1px 0px;
+    font-size: 1em;
+    
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .Component3{
+      background-color: #041e23;
+      margin-top: 100px;
+      padding: 50px;
+      border-radius: 18px;
+      border: solid 1px #0e4a54 ;
+      width: 600px;
+      margin-bottom: 100px;
+    }
+    .C3-header{
+      border-bottom: solid 3px #0e4a54;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      
+    }
+    h1{
+      font-weight: 100;
+      margin: 0px;
+    }
+    
+    .C3-Body{
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      background-color: #041e23;
+      border-radius: 18px;
+      border: solid 1px #0e4a54 ;
+      padding: 20px;
+    }
+  
+    .bheader{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h2{
+      font-size: 2em;
+      font-weight: 500;
+    }
+    .rTicket{
+      background-color: #041e23;
+      min-height: 450px;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ticket-background{
+      background-image: url("/home/kennethchipwana/vite-project/vite2-project/src/assets/Screenshot from 2025-02-13 22-21-30.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 352px;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .ticket-background .time{
+      padding-top: 80px;
+    }
+    .ticket-background img{
+      margin-top: 20px;
+      width: 110px;
+      height: 110px;
+      border: 3px solid #5affff;
+      border-radius: 12px;
+    }
+  
+    .AttendeeInfo{
+      display: flex;
+      border: solid 2px #0b444d;
+      width: 270px;
+      border-radius: 12px;
+      margin-top: 20px;
+      flex-direction: column;
+    }
+  
+    .container{
+      display: flex;
+      flex-direction: row;
+      font-size: .9em;
+    }
+    .container div{
+      border-bottom: solid 1px #0b444d;
+      width: 125px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      overflow-wrap: break-word;
+      
+    }
+    .specialRequest{
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    .backSubmit{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    .submitBtn {
+      border-radius: 8px;
+      width: 260px;
+      padding: 1px 0px;
+      font-size: 1em;
+      background-color: #24a0b5;
+      color: white;
+      border: #24a0b5;
+    }
+    .backBtn{
+      border: solid 2px #0e4a54 ;
+      color: #0e4a54;
+      border-radius: 8px;
+      background-color: #08252b;
+      height: 50px;
+      width: 260px;
+      padding: 1px 0px;
+      font-size: 1em;
+      
+    }
+    
+    button:hover{
+      cursor: pointer;
+    }
+  }

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Component1{
+    background-color: #041e23;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 18px;
+    border: solid 1px #0e4a54 ;
+    min-width: 400px;
+    margin-bottom: 100px;
+}
+.C1-header{
+    border-bottom: solid 3px #0e4a54;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+h1{
+    font-weight: 100;
+    margin: 0px;
+}
+
+.C1-Body{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: #08252b;
+    border-radius: 18px;
+    border: solid 1px #0e4a54 ;
+    padding: 20px;
+}
+
+.event-info{
+    background-image: linear-gradient(to bottom right, #0d3840, #02181c);
+    min-height: 200px;
+    border: solid 1px #0e4a54 ;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.event-info h1{
+    font-family: "Road Rage", serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+hr{
+    margin: 20px auto;
+    height: 2px;
+    border: none;
+    background-color: #0e4a54;
+}
+
+.tickets{
+    margin-top: 15px;
+    background-color: #052228;
+    border-radius: 18px;
+    border: solid 1px #0e4a54 ;
+    padding:10px 10px 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px #147b8d ;
+    padding: 10px;
+    font-size: .8em;
+    min-width: 50px;
+    border-radius: 18px;
+    margin-right: 15px;
+}
+
+.t-price{
+    font-weight: bold;
+}
+
+.ticket:hover{
+    cursor: pointer;
+    background-color: #0a3f49;
+}
+
+.p3{
+    margin-right:0px;
+}
+
+.No-Tickets{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.No-Tickets select {
+    margin-top: 15px;
+    border: solid 2px #0e4a54 ;
+    border-radius: 8px;
+    background-color: #08252b;
+    height: 45px;
+    padding: 5px;
+    font-size: 1.2em;
+
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nextBtn {
+    border-radius: 8px;
+    height: 50px;
+    padding: 1px 65px;
+    font-size: 1em;
+    background-color: #24a0b5;
+    color: white;
+    border: #24a0b5;
+}
+.cancelBtn{
+    border: solid 2px #0e4a54 ;
+    color: #0e4a54;
+    border-radius: 8px;
+    background-color: #08252b;
+    height: 50px;
+    padding: 1px 60px;
+    font-size: 1em;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.highlight{
+    cursor: pointer;
+    background-color: #197686;
+}
+
+@media only screen and (min-width: 768px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Component1{
+        background-color: #041e23;
+        margin-top: 100px;
+        padding: 50px;
+        border-radius: 18px;
+        border: solid 1px #0e4a54 ;
+        width: 600px;
+        margin-bottom: 100px;
+    }
+    .C1-header{
+        border-bottom: solid 3px #0e4a54;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+    h1{
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    .C1-Body{
+        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        background-color: #08252b;
+        border-radius: 18px;
+        border: solid 1px #0e4a54 ;
+        padding: 20px;
+    }
+
+    .event-info{
+        background-image: linear-gradient(to bottom right, #0d3840, #02181c);
+        min-height: 200px;
+        border: solid 1px #0e4a54 ;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .event-info h1{
+        font-family: "Road Rage", serif;
+        font-size: 3.5em;
+        font-weight: bold;
+        font-style: normal;
+        
+    }
+
+    hr{
+        margin: 20px auto;
+        height: 2px;
+        border: none;
+        background-color: #0e4a54;
+    }
+
+    .tickets{
+        margin-top: 15px;
+        background-color: #052228;
+        border-radius: 18px;
+        border: solid 1px #0e4a54 ;
+        padding:10px 10px 10px 10px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .ticket{
+        display: flex;
+        flex-direction: column;
+        border: solid 3px #147b8d ;
+        padding: 10px;
+        min-width: 140px;
+        border-radius: 18px;
+        margin-right: 15px;
+    }
+
+    .t-price{
+        font-weight: bold;
+    }
+
+    .ticket:hover{
+        cursor: pointer;
+        background-color: #0a3f49;
+    }
+
+    .p3{
+        margin-right:0px;
+    }
+
+    .No-Tickets{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .No-Tickets select {
+        margin-top: 15px;
+        border: solid 2px #0e4a54 ;
+        border-radius: 8px;
+        background-color: #08252b;
+        height: 45px;
+        padding: 5px;
+        font-size: 1.2em;
+
+    }
+    .btns{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nextBtn {
+        border-radius: 8px;
+        height: 50px;
+        padding: 1px 115px;
+        font-size: 1em;
+        background-color: #24a0b5;
+        color: white;
+        border: #24a0b5;
+    }
+    .cancelBtn{
+        border: solid 2px #0e4a54 ;
+        color: #0e4a54;
+        border-radius: 8px;
+        background-color: #08252b;
+        height: 50px;
+        padding: 1px 115px;
+        font-size: 1em;
+        
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .highlight{
+        cursor: pointer;
+        background-color: #197686;
+    }
+}
